@@ -19,9 +19,9 @@ public class Main {
 	}
 }
 class MinhaThread extends Thread {
-	private int id = 0, 
+	private int id = 0; 
   private volatile int limite = 0;
-	MinhaThread(int novoId, volatile int novoLimite) {
+	MinhaThread(int novoId, int novoLimite) {
 		this.id = novoId;
 		this.limite = novoLimite;
 	}
